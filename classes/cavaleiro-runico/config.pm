@@ -3,9 +3,10 @@ sub configurarBuild {
     my %configsBuild = (
         skillsAprendiz => 'NV_BASIC 9',
         #skills providas por makkusushirobi
-        skillsClasse1 => 'Aumentar Recuperação de HP 10, Perícia com Espada 1, Perícia com Espada de Duas Mãos 10, Provocar 5, Vigor 8, Golpe Fulminante 10, Impacto Explosivo 5',
-        skillsClasse2 => 'Rapidez com Duas Mãos 10, Montaria 1, Perícia em Montaria 5, Contra-Ataque 5, Impacto de Tyr 10, Perícia com Lança 10, Perfurar 8',
-        skillsClasse1T => 'Aumentar Recuperação de HP 10, Perícia com Espada 1, Perícia com Espada de Duas Mãos 10, Provocar 5, Vigor 8, Golpe Fulminante 10, Impacto Explosivo 5',
+        #nomes alterados por reiropke
+        skillsClasse1 => 'SM_RECOVERY 10, SM_SWORD 1, SM_TWOHAND 10, SM_PROVOKE 5, SM_ENDURE 8, SM_BASH 10, SM_MAGNUM 5',
+        skillsClasse2 => 'KN_TWOHANDQUICKEN 10, KN_RIDING 1, KN_CAVALIERMASTERY 5, KN_AUTOCOUNTER 5, KN_BOWLINGBASH 10, Perícia com Lança 10, Perfurar 8',
+        skillsClasse1T => 'SM_RECOVERY 10, SM_SWORD 1, SM_TWOHAND 10, SM_PROVOKE 5, SM_ENDURE 8, SM_BASH 10, SM_MAGNUM 5',
         skillsClasse2T => '',
         skillsClasse3 => '',
         statsPadrao => '10 dex, 15 agi, 20 dex, 25 agi, 20 str, 30 dex, 60 agi, 30 str, 40 dex, 20 vit, 80 agi ,60 dex, 50 str, 90 agi, 70 str, 40 vit'
